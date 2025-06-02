@@ -88,6 +88,6 @@ simulacao_direcao.input['distancia'] = input_distancia
 simulacao_direcao.compute()
 output_direcao = simulacao_direcao.output['direcao']
 print(f"Direção Calculada (Python): {output_direcao:.2f} graus")
-# direcao.view(sim=simulacao_direcao) # Para visualizar
+direcao.view(sim=simulacao_direcao) # Para visualizar
 
-# plt.show() # Para exibir os gráficos se .view() for chamado
+plt.show() # Para exibir os gráficos se .view() for chamado
